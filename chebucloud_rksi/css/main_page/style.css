@@ -1,0 +1,577 @@
+/* main page css */
+
+/* fonts */
+
+/*  menlo  */
+/* font-family: 'Menlo', sans-serif; */
+@import url('https://fonts.cdnfonts.com/css/menlo');
+
+/*  mona sans  */
+/* font-family: 'Mona-Sans', sans-serif; */
+/* font-family: 'Mona Sans', sans-serif; */
+@import url('https://fonts.cdnfonts.com/css/mona-sans');
+
+/*  inter  */
+/* font-family: 'Inter', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* body */
+body::-webkit-scrollbar {
+    display: none;
+  }
+body {
+    background: black;
+    color: white;
+    overflow-x: hidden;
+
+    -ms-overflow-style: none;  /* IE и Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+
+/* section1 */
+
+/* head */
+
+
+/* cloud */
+.circle1 img {
+    position: absolute;
+    top: -500px;
+    right: 496px;
+
+    transition: 0.5s;
+}
+.circle1 img:active {
+    scale: 95%;
+
+    transition: 1s;
+}
+.circle2 img {
+    position: absolute;
+    top: -1100px;
+    right: -800px;
+
+    transition: 0.5s;
+}
+.circle2 img:active {
+    scale: 95%;
+
+    transition: 1s;
+}
+.circle3 img {
+    position: absolute;
+    top: 150px;
+    right: -500px;
+
+    transition:0.5s;
+}
+.circle3 img:active {
+    scale: 95%;
+
+    transition: 1s;
+}
+
+/* buttons */
+.sign-in a {
+    font-family: Mona Sans, sans-serif;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 31px;
+
+    padding-top: 18px;
+    padding-bottom: 17px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 15px;
+
+    position: absolute;
+    top: 32px;
+    left: 1555px;
+
+    transition: 0.5s;
+}
+.sign-in a:hover {transition: 0.5s;}
+.sign-in a:active {
+    scale: 90%;
+
+    transition: 0.5s;
+}
+.sign-up a {
+    font-family: Mona Sans, sans-serif;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 31px;
+
+    padding-top: 18px;
+    padding-bottom: 17px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    color: black;
+    background: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 15px;
+
+    position: absolute;
+    top: 32px;
+    left: 1722px;
+
+    box-shadow: none;
+
+    transition: 0.5s;
+}
+.sign-up a:hover {
+    scale: 105%;
+    box-shadow: 0 0 15px white;
+
+    transition: 0.5s;
+}
+.sign-up a:active {
+    scale: 90%;
+    box-shadow: 0 0 5px white;
+
+    transition: 0.5s;
+}
+
+/* logo */
+.logo a {
+    /* size */
+	width: 194px;
+	height: 38px;
+
+	/* style */
+	color: white;
+	text-decoration: none;
+
+	font-family: 'Inter', sans-serif;
+	font-weight: 300;
+	font-size: 31px;
+
+	/* position */
+    position: absolute;
+	top: 33px;
+	left: 65px;
+}
+.logo span {font-weight: 600;}
+
+/* products */
+.products p {
+    /* size */
+	width: 115px;
+	height: 37px;
+
+	/* style */
+	display: block;
+
+	color: white;
+
+	font-family: 'Mona-Sans', sans-serif;
+	font-weight: 112;
+	font-size: 31px;
+    line-height: 37px;
+
+	/* position */
+	position: absolute;
+	top: 4.25px;
+	left: 291px;
+}
+
+.products img {
+    /* size */
+	width: 19px;
+	height: 12px;
+
+	/* position */
+	position: absolute;
+	top: 49px;
+	left: 435px;
+	
+	transition: 1s;
+}
+.products:hover img {
+    transform: rotate(-180deg);
+
+    transition: 1s;
+}
+
+/* header */
+.header h1 {
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 128px;
+    font-weight: 600;
+
+    position: absolute;
+    top: 339px;
+    left: 65px;
+}
+.header p {
+    width: 761px;
+    height: 246px;
+
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 62px;
+
+    position: absolute;
+    top: 500px;
+    left: 73px;
+}
+
+
+/* section2 */
+
+/* chebupower */
+.chebupower p {
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 128px;
+    font-weight: 600;
+    line-height: 124px;
+
+    position: absolute;
+    top: 1261px;
+    left: 519px;
+}
+
+/* code image */
+.code_image img {
+    position: absolute;
+    top: 1575px;
+    left: 297px;
+
+    transition: 1s;
+}
+.code_image img:hover {
+    scale: 102.5%;
+
+    transition: 1s;
+}
+
+/* your code, your cloud */
+.YcYc p {
+    font-family: 'Menlo', sans-serif;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 99px;
+
+    position: absolute;
+    top: 2123px;
+    left: 482px;
+}
+.YcYc span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+/* left circle */
+.circle_left img {
+    position: absolute;
+    top: 1500px;
+    left: -500px;
+
+    transform: rotate(-100deg);
+    transition: 5s;
+}
+.circle_left img:active {
+    transform: rotate(1080deg);
+    transition: 5s;
+}
+
+/* right circle */
+.circle_right img {
+    scale: 95%;
+
+    position: absolute;
+    top: 1000px;
+    left: 1700px;
+
+    transform: rotate(75deg)
+}
+
+
+/* section3 */
+
+/* green circle */
+.green_circ img {
+    width: 1968px;
+    height: 1968px;
+
+    transform: rotate(180deg);
+
+    position: absolute;
+    top: 2600px;
+    left: -1050px;
+}
+
+/* computer image */
+.comp_image img {
+    position: absolute;
+    top: 2551px;
+    left: 0px;
+}
+.comp_screen img {
+    opacity: 0%;
+
+    margin-top: 532px;
+    margin-left: 27.5px;
+
+    transition: 1s;
+}
+.comp_screen img:hover {
+    opacity: 100%;
+
+    transition: 1s;
+}
+
+/* Code. Team. Share. */
+.CTS h1 {
+    width: 529px;
+    height: 497px;
+
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 171px;
+    font-weight: 600;
+
+    position: absolute;
+    top: 2562px;
+    left: 1226px;
+}
+
+/* Code wherever you want... */
+.paragraph p {
+    width: 561px;
+    height: 245px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    font-weight: 300;
+
+    position: absolute;
+    top: 4000px;
+    left: 1234px;
+}
+.paragraph span {font-weight: 700;}
+
+
+/* section4 */
+
+/* plan header */
+.plan_header h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 171px;
+    font-weight: 500;
+
+    position: absolute;
+    left: 243px;
+    top: 4731px;
+}
+
+/* plans */
+
+/* junior */
+.junior {
+    width: 534px;
+    height: 534px;
+
+    background: linear-gradient(180deg, #3928FB 0%, rgba(90, 3, 159, 0.76) 100%);
+    border-radius: 45px;
+
+    position: absolute;
+    top: 5150px;
+    left: 73px;
+
+    transition: 0.5s;
+}
+.junior:hover {
+    scale: 102.5%;
+    top: 5125px;
+
+    transition: 0.5s;
+}
+.junior h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+
+    margin-top: 35px;
+    margin-left: 46px;
+}
+.junior p {
+    font-family: 'Menlo', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+
+    margin-left: 52px;
+}
+.junior h2 {
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+
+    margin-top: 175px;
+    margin-left: 46px;
+}
+
+/* middle */
+.middle {
+    width: 534px;
+    height: 534px;
+
+    background: linear-gradient(180deg, #FF0000 0%, rgba(255, 153, 0, 0.76) 100%);
+    border-radius: 45px;
+
+    position: absolute;
+    top: 5150px;
+    left: 694px;
+
+    transition: 0.5s;
+}
+.middle:hover {
+    scale: 102.5%;
+    top: 5125px;
+
+    transition: 0.5s;
+}
+.middle h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+
+    margin-top: 35px;
+    margin-left: 46px;
+}
+.middle p {
+    font-family: 'Menlo', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+
+    margin-left: 52px;
+}
+.middle h2 {
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+
+    margin-top: 175px;
+    margin-left: 46px;
+}
+
+/* senior */
+.senior {
+    width: 534px;
+    height: 534px;
+
+    background: linear-gradient(180deg, #09D436 0%, rgba(2, 100, 106, 0.76) 100%);
+    border-radius: 45px;
+
+    position: absolute;
+    top: 5150px;
+    right: 75px;
+
+    transition: 0.5s;
+}
+.senior:hover {
+    scale: 102.5%;
+    top: 5125px;
+
+    transition: 0.5s;
+}
+.senior h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+
+    margin-top: 35px;
+    margin-left: 46px;
+}
+.senior p {
+    font-family: 'Menlo', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+
+    margin-left: 52px;
+}
+.senior h2 {
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+
+    margin-top: 130px;
+    margin-left: 46px;
+}
+
+/* and code */
+.and_code h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 171px;
+    font-weight: 500;
+
+    position: absolute;
+    top: 5650px;
+    left: 578px;
+}
+
+
+/* section5 */
+
+/* footer */
+.footer {
+    width: 1923px;
+    height: 750px;
+
+    font-family: 'Inter', sans-serif;
+
+    line-height: 54px;
+    background: #151515;
+
+    position: absolute;
+    top: 6010px;
+    left: 0px;
+
+    display: flex;
+}
+/* column1 */
+.column1 h1 {
+    font-size: 64px;
+    font-weight: 500;
+    line-height: normal;
+
+    color: gray;
+
+    margin-left: 73px;
+}
+.column1 p {
+    font-size: 42px;
+    font-weight: 400;
+
+    color: rgb(63, 63, 63);
+
+    margin-left: 73px;
+}
+/* youtube video */
+.yt_vid iframe {
+    width: 854px;
+    height: 480px;
+
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 375px;
+}
+
+/* bottom footer */
+.bottom_footer p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+
+    color: rgb(63, 63, 63);
+
+    margin-top: 695px;
+    margin-left: 40px;
+}
