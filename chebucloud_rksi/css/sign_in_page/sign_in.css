@@ -169,6 +169,7 @@ input {outline:none;}
     margin-top: 35px;
     text-align: center;
 }
+
 /* E-Mail */
 .e-mail input {
     width: 760px;
@@ -257,7 +258,12 @@ input {outline:none;}
     
     transition: 0.5s;
 }
-.sign-in button:active {}
+.sign-in button:active {
+    scale: 98%;
+    margin-top: 28px;
+
+    transition: 0.25s;
+}
 
 
 
