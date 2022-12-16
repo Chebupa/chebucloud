@@ -1,0 +1,318 @@
+/* sign in page css */
+
+/* fonts */
+
+/*  menlo  */
+/* font-family: 'Menlo', sans-serif; */
+@import url('https://fonts.cdnfonts.com/css/menlo');
+
+/*  mona sans  */
+/* font-family: 'Mona-Sans', sans-serif; */
+/* font-family: 'Mona Sans', sans-serif; */
+@import url('https://fonts.cdnfonts.com/css/mona-sans');
+
+/*  inter  */
+/* font-family: 'Inter', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*  montseratt  */
+/* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* body */
+body::-webkit-scrollbar {
+    display: none;
+  }
+body {
+    background: black;
+    color: white;
+    overflow-x: hidden;
+
+    -ms-overflow-style: none;  /* IE и Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: white;
+
+    font-size: 42px;
+    font-family: 'Montseratt', sans-serif;
+    font-weight: 200;
+
+    transition: 0.5s;
+}
+input {outline:none;}
+
+/* HEAD */
+
+
+/* logo */
+.logo a {
+    /* size */
+	width: 194px;
+	height: 38px;
+
+	/* style */
+	color: white;
+	text-decoration: none;
+
+	font-family: 'Inter', sans-serif;
+	font-weight: 300;
+	font-size: 31px;
+
+	/* position */
+    position: absolute;
+	top: 33px;
+	left: 65px;
+}
+.logo span {font-weight: 600;}
+
+/* products */
+.products p {
+    /* size */
+	width: 115px;
+	height: 37px;
+
+	/* style */
+	display: block;
+
+	color: white;
+
+	font-family: 'Mona-Sans', sans-serif;
+	font-weight: 112;
+	font-size: 31px;
+    line-height: 37px;
+
+	/* position */
+	position: absolute;
+	top: 4.25px;
+	left: 291px;
+}
+
+.products img {
+    /* size */
+	width: 19px;
+	height: 12px;
+
+	/* position */
+	position: absolute;
+	top: 49px;
+	left: 435px;
+	
+	transition: 1s;
+}
+.products:hover img {
+    transform: rotate(-180deg);
+
+    transition: 1s;
+}
+
+/* cloud */
+.circle1 img {
+    position: absolute;
+    top: -500px;
+    right: 496px;
+
+    transition: 0.5s;
+}
+.circle1 img:active {
+    scale: 95%;
+
+    transition: 1s;
+}
+.circle2 img {
+    position: absolute;
+    top: -1100px;
+    right: -800px;
+
+    transition: 0.5s;
+}
+.circle2 img:active {
+    scale: 95%;
+
+    transition: 1s;
+}
+.circle3 img {
+    position: absolute;
+    top: 150px;
+    right: -500px;
+
+    transition:0.5s;
+}
+.circle3 img:active {
+    scale: 95%;
+
+    transition: 1s;
+}
+
+
+
+/* ACCOUNT */
+.account {
+    width: 833px;
+    height: 529px;
+
+    font-family: 'Mona-Sans', sans-serif;
+
+    background: rgba(39, 39, 39, 0.75);
+    border-radius: 25px;
+
+    position: absolute;
+    top: 327px;
+    left: 67px;
+}
+
+/* account header */
+.account_header {
+    font-size: 64px;
+    font-weight: 600;
+
+    margin-top: 35px;
+    text-align: center;
+}
+/* E-Mail */
+.e-mail input {
+    width: 760px;
+    height: 95px;
+
+    background: transparent;
+    color: rgb(210, 210, 210);
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+
+    margin-top: 25px;
+    margin-left: 20px;
+    padding-left: 25px;
+
+    font-size: 42px;
+    font-family: 'Mona-Sans', sans-serif;
+
+    transition: 0.5s;
+}
+.e-mail input:hover {
+    background: rgb(21, 21, 21);
+    border-color: white;
+    color: rgba(255, 255, 255, 0.7);
+    
+    transition: 0.5s;
+}
+.e-mail input:hover::-webkit-input-placeholder {
+    color: gray;
+
+    transition: 0.5s;
+}
+
+/* Password */
+.password input {
+    width: 760px;
+    height: 95px;
+
+    background: transparent;
+    color: rgb(210, 210, 210);
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+
+    margin-top: 25px;
+    margin-left: 20px;
+    padding-left: 25px;
+
+    font-size: 42px;
+    font-family: 'Mona-Sans', sans-serif;
+
+    transition: 0.5s;
+}
+.password input:hover {
+    background: rgb(21, 21, 21);
+    border-color: white;
+    color: rgba(255, 255, 255, 0.7);
+    
+    transition: 0.5s;
+}
+.password input:hover::-webkit-input-placeholder {
+    color: gray;
+
+    transition: 0.5s;
+}
+
+/* sign in */
+.sign-in button {
+    width: 790px;
+    height: 100px;
+
+    background: white;
+    color: black;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+
+    margin-top: 25px;
+    margin-left: 20px;
+
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 52px;
+
+    transition: 0.5s;
+}
+.sign-in button:hover {
+    box-shadow: 0 0 10px white;
+    scale: 100.5%;
+    
+    transition: 0.5s;
+}
+.sign-in button:active {}
+
+
+
+/* FOOTER */
+.footer {
+    width: 1923px;
+    height: 750px;
+
+    font-family: 'Inter', sans-serif;
+
+    line-height: 54px;
+    background: #151515;
+
+    position: absolute;
+    top: 1080px;
+    left: 0px;
+
+    display: flex;
+}
+
+/* column 1 */
+.column1 h1 {
+    font-size: 64px;
+    font-weight: 500;
+    line-height: normal;
+
+    color: gray;
+
+    margin-left: 73px;
+}
+.column1 p {
+    font-size: 42px;
+    font-weight: 400;
+
+    color: rgb(63, 63, 63);
+
+    margin-left: 73px;
+}
+/* youtube video */
+.yt_vid iframe {
+    width: 854px;
+    height: 480px;
+
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 375px;
+}
+/* bottom footer */
+.bottom_footer p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+
+    color: rgb(63, 63, 63);
+
+    margin-top: 695px;
+    margin-left: 40px;
+}
