@@ -133,7 +133,7 @@ body {
     transition: 0.5s;
 }
 .sign-up a:active {
-    scale: 70%;
+    scale: 95%;
     top: 40px;
 
     box-shadow: 0 0 5px white;

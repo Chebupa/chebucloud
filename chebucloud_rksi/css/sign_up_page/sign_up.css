@@ -149,7 +149,7 @@ input {outline:none;}
 /* ACCOUNT */
 .account {
     width: 833px;
-    height: 653px;
+    height: 625px;
 
     font-family: 'Mona-Sans', sans-serif;
 
@@ -267,8 +267,8 @@ input {outline:none;}
     transition: 0.5s;
 }
 
-/* sign in */
-.sign-in button {
+/* sign up */
+.sign-up button {
     width: 790px;
     height: 100px;
 
@@ -285,13 +285,13 @@ input {outline:none;}
 
     transition: 0.5s;
 }
-.sign-in button:hover {
+.sign-up button:hover {
     box-shadow: 0 0 10px white;
     scale: 100.5%;
     
     transition: 0.5s;
 }
-.sign-in button:active {
+.sign-up button:active {
     scale: 98%;
     margin-top: 28px;
 
